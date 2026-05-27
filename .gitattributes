@@ -4,6 +4,7 @@
 _assets/** binary
 _footer/** binary
 index.html binary
+404.html binary
 
 # Repo-local text files keep platform-native handling.
 *.md text
