@@ -1,0 +1,11 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[27918],{
+
+/***/ 355285:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(261896);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {__c.pbd={bl:__c.FC()(({oA:{expr:a}})=>({...__c.xV,metadata:{type:"demo-11",name:__c.Eb("vAIjvQ",[11])},zS:["responsive"],C:{type:0,et:({C:b})=>{const c=a.classes.RW;var d=a.classes.J3;const e=a.classes.aR,f=__c.WUb.create({...__c.B1b,box:{top:50,left:50,width:50,height:50},jn:[4],Tc:2,text:{...__c.qH,stream:__c.Jh.qb().hb("\n").build()},Cb:void 0});Object.defineProperty(f,"text",{get:()=>b.Ftb});const g=d.create({},{S:{$a:a.list([()=>e.create({d:"M75 50 L100 100 L50 100 Z"},{S:{fill:c.create({},{attributes:{color:"#f5a623",
+qa:.2}})}})]),wb:a.list([f])},attributes:{top:50,left:50,width:50,height:50,viewBox:{top:50,left:50,width:50,height:50},Qd:{pA:!0,wE:!1,xE:!1,IC:!1,MD:!1,VC:!1}}});d={text:{...__c.qH,stream:__c.Jh.qb().attrs({color:"#ff5555","font-size":12}).hb("hi cell\n").build()},Cb:void 0};d={...__c.f1b,content:d};const h=__c.KVb.create({...__c.d1b,id:"LBBBBBBBBBBBBBBH",layout:{...__c.e1b,columns:[{id:"A",width:50},{id:"B",width:50}],rows:[{height:1,minHeight:1,Ol:new Map([["A","A1"],["B","B1"]])}],cellPadding:2,
+borderStyle:{color:"#4df04a",weight:.5,Qc:[]}},cells:new Map([["A1",d],["B1",d]]),top:15,left:10,width:80,height:18,J:280,O:63,locked:!0,Qd:{pA:!0,wE:!1,xE:!1,IC:!1,MD:!1,VC:!1}});Object.defineProperty(h.cells.get("A1").content,"text",{get:()=>b.T6a});Object.defineProperty(h.cells.get("B1").content,"text",{get:()=>b.V6a});d={...__c.A1b,text:{...__c.qH,stream:__c.Jh.qb().attrs({color:"#281caf","font-size":3}).hb("ok ?\n").build()},width:16,height:14,position:.5};const k=__c.xT.create({...__c.z1b,start:{...__c.fU,
+position:{top:60,left:10}},end:{...__c.fU,marker:3,position:{top:60,left:50}},id:"LBBBBBBBBBBBBBJ",top:58,left:10,width:40,height:4,weight:2,color:"#00c4cc",wb:[d]});Object.defineProperty(k.wb.first(()=>!0),"text",{get:()=>b.dib});return{Ma:a.list(()=>[g,h,k])}}}}))};
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/9faecd6c7ca16937.js.map

@@ -1,0 +1,10 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[64414],{
+
+/***/ 744243:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._5f74ec40302898c5a55451c9fbd04240 = globalThis._5f74ec40302898c5a55451c9fbd04240 || {};(function(__c) {var B1c=__webpack_require__(296713),J2=B1c.jsx,C1c=B1c.jsxs;var D1c=__webpack_require__(900581).PA;var E1c=__webpack_require__(978109),F1c=E1c.useCallback,G1c=E1c.useMemo,H1c=E1c.useState;var I1c=__webpack_require__(594314).A;var J1c=class{get T7(){return!this.Sl.active}get PJ(){return __c.Sy()||this.isPlaying||this.Vj}get Z7(){return!this.PJ}get isPlaying(){return this.zk.isPlaying(this.fill)}get fe(){return this.zk.fe(this.fill)}get Vj(){return this.zk.Vj(this.fill)}get Tj(){return this.zk.Tj(this.fill)}get duration(){return this.zk.getDuration(this.fill)}get xq(){return this.zk.getState(this.fill).xq}get currentTime(){return this.zk.getCurrentTime(this.fill)}get ai(){return __c.zD(this.zk,this.fill)}get volume(){return this.zk.getVolume(this.fill)}get muted(){return this.volume===
+0}constructor(a,b,c){this.zk=a;this.fill=b;this.Sl=c;this.contentType=1;this.wa=this.zIndex=void 0;this.kia=this.oO=this.QT=this.BD=this.kRa=this.EQa=this.RJ=this.iia=!0;this.NT=this.nZa=!1}};__c.N4a={eca:D1c(a=>{const {zk:b,h1a:c,MBb:d,...e}=a,f=e.item;__c.x(f.type==="design");const [g,h]=H1c(0),k=G1c(()=>new __c.Fgb,[]),l=__c.y(__c.jE(c,__c.y(f.V.first()))),m=F1c(r=>{r!=null&&k.Pla(r)},[k]),n=k.active?{width:g,left:0}:a.Vd,p=G1c(()=>new J1c(b,l,k),[l,k,b]),q=G1c(()=>new __c.ED(b,l),[l,b]);return a.ia.bg?.qAa!=null?J2(d,{...e}):J2(I1c,{onResize:r=>h(r.entry?.width??0),children:({measureRef:r})=>C1c("div",{ref:__c.xy(m,r),className:"jkKFFw",children:[J2(d,{...e,Vd:n}),J2(__c.DD,{store:p,
+controller:q,DBa:!0,Sl:k})]})})})};
+}).call(globalThis, globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/63952594266c3b12.js.map
