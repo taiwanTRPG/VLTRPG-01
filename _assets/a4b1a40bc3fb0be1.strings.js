@@ -1,0 +1,9 @@
+(function() {
+ const messages = JSON.parse("{\"WKDtIg\":\"很開心\",\"JWYKDQ\":\"必須是 {0}或更大\",\"jh7u2w\":\"格式無效\",\"c5VJ7g\":\"瞭解詳情\",\"Jj1O+A\":\"必須選擇 {0, plural, one {# 個選項} other {# 個選項}}\",\"Ci3xnA\":\"請同意資料政策以提交\",\"Ahvd0w\":\"提交新回覆\",\"sUWUOA\":\"{0}%\",\"dVBIgQ\":\"我同意分享我的回應以及與此回應相關的資料。\",\"Q5Pg4w\":\"至少需包含 {0, plural, one {# 個字元} other {#　個字元}}\",\"4EBAAA\":\"必須是 {0} 或更小\",\"pgYrWw\":\"我們會分享你的 Canva 個人檔案名稱。一律不要提交密碼。\",\"orPgUw\":\"我們無法載入表單\",\"3Spodw\":\"非常不開心\",\"As1GTA\":\"不正確\",\"/Y/V2Q\":\"我們不會分享你的 Canva 個人檔案名稱。一律不要提交密碼。\",\"xSH8Og\":\"已儲存回應\",\"wutQEA\":\"正在提交…\",\"BtJs5g\":\"我們會分享你的 Canva 個人檔案名稱\",\"1aqRWg\":\"{0} {0, plural, one {顆星} other {顆星}}\",\"Qso6Xw\":\"必須恰好是 {0, plural, one {# 個字元} other {# 個字元}}\",\"z/bN8g\":\"電子郵件地址無效\",\"Aa3fvQ\":\"必須恰好是 {0}\",\"2Q9Q+A\":\"載入中…\",\"6QpLYA\":\"{0, plural, one {# 票} other {# 票}}\",\"SWeX4Q\":\"必須是 {0, plural, one {# 個字元} other {# 個字元}} 或更短\",\"nFbxIQ\":\"離線\",\"STZx7Q\":\"請至少填寫一個欄位\",\"izckBA\":\"無法提交你的回應。\",\"w/Qzlg\":\"表單\",\"ktnWSg\":\"*必填欄位\",\"mQhziQ\":\"重試\",\"U28wGg\":\"至少必須選擇 {0, plural, one {# 個選項} other {# 個選項}}\",\"T6pZfw\":\"請同意資料處理條款和條件\",\"kgHTHw\":\"無法移除你的回應。\",\"z/APcw\":\"我們不會分享你的 Canva 個人檔案名稱\",\"kbfbNQ\":\"必須選擇最多 {0, plural, one {# 個選項} other {# 個選項}}\",\"fNQh9A\":\"無效的號碼\",\"bqTQmw\":\"不開心\",\"ssYkyg\":\"歡樂\",\"i3mNPA\":\"正確\",\"zt/K0Q\":\"選擇的選項不明\",\"VGvKlQ\":\"了解我們如何處理你的資料\",\"k/uS7g\":\"中立\"}");
+ const cmsg = globalThis["cmsg"] = globalThis["cmsg"] || {};
+
+ const loaded = cmsg["loaded"] = cmsg["loaded"] || {};
+ loaded["70386_zh-TW"] = 1;
+ const strings = cmsg["strings"] = cmsg["strings"] || {};
+ strings["zh-TW"] = strings["zh-TW"] ? Object.assign(strings["zh-TW"], messages) : messages;
+})();

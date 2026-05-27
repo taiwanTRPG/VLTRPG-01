@@ -1,35 +1,33 @@
 # VirtualLiveTRPG 線上推廣企劃
 
-Static mirror of the Canva-designed promo site
+Full mirror of the Canva-designed promo site
 ([原網址](https://vltrpg.my.canva.site/virtuallivetrpg)) deployable as
 GitHub Pages.
 
+Animations, fonts, hash-routed slide navigation, and every internal /
+external link are preserved exactly as the Canva runtime renders them.
+
 ## Layout
 
-- `index.html` — single-file site with hash routing (`#page-1`, `#page-2`, …)
-- `assets/style.css` — layout, responsive scaling, hotspot styling
-- `assets/app.js` — hash router, keyboard / pager navigation
-- `slides/*.webp` — 33 slide images (1366×768 @ 2x DPR, WebP q=90)
-- `.nojekyll` — disables Jekyll on GitHub Pages
+- `index.html` — original Canva-exported HTML, `<base href>` patched to
+  `./` so the bundle works at any deploy path.
+- `_assets/` — Canva runtime: JS bundles, CSS, fonts, media (≈ 33 MB).
+- `_footer/index.html` — the static "Made with Canva" footer fragment
+  (served at `/_footer?lang=zh-TW` thanks to directory-style routing).
+- `.nojekyll` — disables Jekyll on GitHub Pages so `_`-prefixed paths
+  are served as-is.
 
-Each slide is a `<section>` containing the slide image plus absolute-positioned
-`<a class="hotspot">` overlays for every clickable element on that slide
-(internal page links + external links to game publishers, social media, etc.).
-Positions are percentage-based so the layout stays accurate at any viewport size.
+## Deploying
 
-## Navigation
+1. Push `main` to GitHub (already done).
+2. Repo Settings → Pages → Source: `Deploy from a branch` → Branch:
+   `main` / `/ (root)`.
+3. Site goes live at `https://taiwantrpg.github.io/VLTRPG-01/`.
 
-- Click the slide buttons (the green pill CTAs) to jump between pages
-- Top bar links jump to the three top-level pages
-- Footer pager (‹ ›) or keyboard arrows / PageUp / PageDown move sequentially
-
-## Rebuilding from source
-
-The site is generated from a Playwright snapshot of the live Canva page.
-Source scripts live in `_canva_raw/` (gitignored).
+## Rebuilding from the live Canva site
 
 ```powershell
-python _canva_raw/snapshot_all.py   # snapshot every slide
-python _canva_raw/build_site.py     # generate index.html + assets
-python _canva_raw/optimize.py       # PNG -> WebP
+python _canva_raw/mirror_discover.py   # walk every slide, log every URL
+python _canva_raw/mirror_download.py   # download all 161 assets
+# Then patch index.html's <base href> back to "./"
 ```

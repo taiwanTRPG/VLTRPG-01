@@ -1,0 +1,12 @@
+# The mirrored Canva bundle uses SRI integrity hashes — any line-ending
+# rewrite would invalidate them. Treat all mirrored assets as binary so git
+# leaves bytes untouched on checkout/commit.
+_assets/** binary
+_footer/** binary
+index.html binary
+
+# Repo-local text files keep platform-native handling.
+*.md text
+.gitignore text
+.gitattributes text
+.nojekyll text
