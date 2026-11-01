@@ -11,6 +11,11 @@ external link are preserved exactly as the Canva runtime renders them.
 
 - `index.html` — original Canva-exported HTML, `<base href>` patched to
   `./` so the bundle works at any deploy path.
+  **Manually added:** a 第二屆入口 overlay right after `<body>`, between
+  `<!-- VL-GATE -->` and `<!-- /VL-GATE -->` (button to
+  https://virtualtrpg02.trpgtw.org/ and a 「看第一屆」 button that reveals the
+  original page; skipped when the URL has a `#hash`). Re-add it after any
+  re-export from Canva.
 - `_assets/` — Canva runtime: JS bundles, CSS, fonts, media (≈ 33 MB).
 - `_footer/index.html` — the static "Made with Canva" footer fragment
   (served at `/_footer?lang=zh-TW` thanks to directory-style routing).
